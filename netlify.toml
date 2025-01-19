@@ -1,0 +1,6 @@
+[build]
+command = "gatsby build"
+publish = "public" # Gatsby genera la salida en el directorio "public"
+
+[functions]
+directory = "netlify/functions" # Esto puede ser eliminado si no usas funciones
